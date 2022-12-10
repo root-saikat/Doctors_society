@@ -1,0 +1,91 @@
+
+.why-ss{
+    .y-seba{
+        margin-top: 100px;
+    }
+    h1{
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 115%;
+        color: #111417;
+        margin: 8px auto;
+    }
+    p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 149%;
+        color: #617283;
+    }
+    .carousel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        margin: 35px auto;
+
+        .container{
+            // display: flex;
+
+            background: #F8FCFF;
+            border-radius: 8px; 
+            // align-items: center;
+            margin: auto;
+            width: 389px;
+
+            p{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 149%;
+                color: #121212;
+                margin: auto 32px auto 52px ;
+            }
+            .img-name{
+                margin: 16px 0px 49px 52px;
+                display: flex;
+                align-items: center;
+                
+                span{
+                    margin: 12px;
+                }
+            }
+        }
+    }
+
+    .dots{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -10px;
+        transition: all 0.3s ease;
+        object-fit: cover;
+        span{
+            height: 8px;
+            width: 8px;
+            background: #D0D3D6;
+            margin: 8px;
+            border-radius: 50%;
+        }
+
+    }
+    .owl-dots{
+        text-align: center;
+        margin-top: 20px;
+    } 
+    .owl-dot{
+        height: 13px;
+        width: 13px;
+        margin: 0 5px;
+        outline: none!important;
+        border-radius: 50%;
+        border: 2px solid rgba(14, 163, 119)!important;
+        transition: all 0.3s ease;
+    }
+    &.active{
+        width: 35px;
+        border-radius: 14px;
+    }
+    .owl-dot.active,
+    .owl-dot:hover{
+        background: rgba(14, 163, 119)!important;
+    }
+}

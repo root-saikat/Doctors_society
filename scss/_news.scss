@@ -1,0 +1,197 @@
+.news{
+    // margin: 100px auto;
+    // width: 100%;
+    .n-o-e{
+        margin-top: 100px;
+        .bar{
+            display: none;
+
+        }
+
+    }
+
+
+    .links {
+        display: flex;
+        list-style-type: none;
+        justify-content: left;
+        padding: 24px;
+        margin-top: 52px;
+        // width: 100%;
+        // margin: auto;  
+        border-bottom: 2px solid #F1F1F1;
+        li{
+            // margin: 0px 65px;
+        }
+        a{
+            text-decoration:none;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 120%;
+            text-align: center;
+            color: #04518C;
+            width: 145px;
+            padding: 0 75px;
+
+            &:hover{
+                padding-bottom: 24px;
+                border-bottom: 2px solid #71BFFB;
+                width: 208px;
+                // padding: 5px 10px;
+            }
+
+        }
+        
+    }
+    h1{
+
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 115%;
+        color: #111417;
+    }
+    .containerr{
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        margin-top: 24px;
+        .vectors{
+            max-width: 480px;
+            height: 290.37px;
+            position: relative;
+            .up{
+                max-width: 458px;
+                position: absolute;
+                z-index: 100;
+                left: 0;
+                top: 0;
+
+                .one{
+                    width: 100%;
+                }
+            }
+            .down{
+                max-width: 424px;
+                position: absolute;
+                z-index: 1;
+                bottom: 0;
+                right: 0;
+                .two{
+                    width: 100%;
+                }
+            }          
+        }
+        .con-one {
+            margin-top: 16px;
+            h2{
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 120%;
+                color: #252B32;
+                max-width: 478px;
+                height: 48px;
+                margin-top: 16px;
+            }
+        }
+        .con-two{
+            max-width: 682px;
+            height: 409px;
+            border: 2px solid #F1F1F1;
+            border-radius: 4px;
+            overflow: hidden;
+            overflow-y: scroll;
+            padding: 12px;
+
+            .article{
+                display: flex;
+                margin: 0;
+                cursor: pointer;
+            }
+            .article:hover{
+                background: rgb(238, 245, 248);
+            }
+            
+            img{
+                margin: 12px;
+            }
+            .dates{
+            // &:hover{
+            //     color: #0075eb;
+            // }
+                h2{
+                    max-width: 450px;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 120%;
+                    color: #252B32;
+                    margin: 16px 16px 12px 4px;
+
+                }
+                span{
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 149%;
+                    color: #545454;
+                    margin: 12px 4px;
+                }
+            }
+            
+        }
+        .scroll {
+            position: relative;
+            .line{
+                height: 393px;
+                width: 5px;
+                position: absolute;
+            }
+        }    
+    }
+    .btn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 65px 0 104px 0;
+        border: none;
+        .view-more{
+            padding: 16px 32px;
+            gap: 4px;
+            width: 210px;
+            height: 52px;
+            background: #19B3BD;
+            border-radius: 4px;
+            border: none;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18px;
+            color: #FFFFFF;
+            outline: none !important;
+            transition: all 0.2s ease;
+            &:hover{
+                background: #52b4ff;
+                // border: none;
+            }
+        } 
+        
+    }
+
+    
+::-webkit-scrollbar {
+    width: 0.5vw;
+    border: 2px;
+  }
+::-webkit-scrollbar-track {
+    background: #F8F8FA; 
+  }
+::-webkit-scrollbar-thumb {
+    background: #D0D3D6; 
+    border-radius:10px;
+  }
+::-webkit-scrollbar-thumb:hover {
+  
+    background: #555; 
+  } 
+  ::-webkit-scrollbar-button {
+    height: 12px;
+  }
+}

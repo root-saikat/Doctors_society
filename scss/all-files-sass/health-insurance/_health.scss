@@ -1,0 +1,180 @@
+.heading{
+    h1{
+        font-weight: 700;
+        font-size: 30px;
+        color: #252B32;
+        margin-top: 40px;
+    }
+
+}
+.main-body{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 24px auto;
+    .left{
+        max-width: 286px;
+        .category{
+            margin-bottom: 8px;
+        }
+        .chk-box{
+            background: #FFFFFF;
+            box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.08), 0px 0.5px 2px rgba(96, 97, 112, 0.16);
+            border-radius: 4px;
+        }
+        .header {
+            padding: 16px 24px;
+            border-bottom: 1px solid #F1F1F1;;
+            h3{
+            font-weight: 700;
+            font-size: 14px;
+            color: #023154;
+            }
+        }
+        .new{
+            padding: 1px 23px;
+            .form-group{
+                margin: 15px 1px;
+                label{
+                    margin: 0 12px;
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: #4D5A68;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .search{
+        padding: 0;
+        .search-container{
+            background: #FFFFFF;
+            // border: 1px solid #D0D3D6;
+            border-radius: 5px;
+            max-width: 906px;
+            .search-icon{
+               color: #93A1AF;
+            }
+        }
+    }
+    .grid-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 24px;
+        margin: 16px 0;
+        .content{
+            padding: 20px 20px 16px 20px;
+            background: #FFFFFF;
+            border: 1px solid #F1F1F1;
+            border-radius: 4px;
+            min-height: 386px;
+            max-width: 286px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+
+        }
+        .text{
+            margin-top: 14px;
+            .header{
+                margin: 8px 0;
+                h2{
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: #252B32;
+                }
+            }
+            .para p{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 149%;
+                color: #4D5A68;
+                letter-spacing: 0.6px;
+            }
+        }
+        .flex{
+            display: flex;
+            justify-content: space-between;
+            margin-top: auto;
+            padding: 13px 0;
+            vertical-align: bottom;
+            // position: absolute;
+            .sp{
+                display: flex;
+                flex-direction: column;
+                .f{
+                    font-weight: 400;
+                    font-size: 12px;
+                    color: #617283;
+                }
+                .৳{
+                    font-weight: 700;
+                    font-size: 14px;
+                    color: #252B32;
+
+                }
+            }
+            .search-btn{
+                button{
+                padding: 10px 20px;
+                font-size: 14px;
+                font-weight: 500;
+                color: #FFFFFF;
+                background: #078FF7;
+                border: none;
+                border-radius: 4px;
+                outline: none  !important;
+                transition: all 0.2s ease;
+            
+                &:hover{
+                    // border: 3px double rgb(255, 255, 255);
+                    background: #52b4ff;
+                }
+                
+                }
+            }
+        }
+
+
+    }
+    .pages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .sub li{
+            border: 1px solid #D0D3D6;
+            border-radius: 4px;
+            padding: 8px;
+        }
+        .sub img{
+            padding: 0 6px;
+        }
+    }
+    .sub{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 0;
+        // justify-content: space-around;
+        li{
+            list-style: none;
+            padding: 8px;
+            border: 1px solid #71BFFB;
+            border-radius: 4px;
+            &:hover{
+                cursor: pointer;
+            }
+            a{
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 16px;
+                text-align: center;
+                color: #93A1AF;
+            }
+        }
+        
+        
+    }
+
+}

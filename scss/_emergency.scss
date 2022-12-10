@@ -1,0 +1,200 @@
+.emergency{
+    .heading{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        .h-con{
+            margin: 0;
+            display: flex;
+            align-items: center;
+            h1{
+                font-weight: 700;
+                font-size: 30px;
+                color: #111417;
+                margin: 40px 0;
+            }
+            a{
+                margin: 12.88px;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 16px;
+                color: #04518C;
+            }
+        }
+    }
+    .vehicle{
+        display: flex;
+        // justify-content: center;
+        gap: 24px;
+        .four{
+            display: none;
+        }
+
+        .ambulance{
+            border-radius: 8px;
+            background: #F8FCFF;
+            align-items: center;
+            border: 1px solid #B8DFFD;
+            max-height: 414px;
+            max-width: 389px;
+            margin: 0 auto;
+            padding: 24px;
+
+            .cover-img{
+                // max-width: 331px;
+                width: 100%;
+                // padding: 22px;
+                margin-bottom: 10px;
+            }
+            a{
+                text-decoration: none;
+                color: #04518C;
+                text-align: center;
+                align-items: center;
+                display: block;
+                border-bottom: 1px solid #B8DFFD;
+                max-width: 325px;
+                font-weight: 700;
+                font-size: 18px;
+                margin: auto;
+                padding: 12px 0;
+            }
+            .benifits{
+                box-sizing: border-box;
+                margin: 10px 32px 24px 32.33px;
+                // height: 414px;
+
+                img{
+                    margin: 8px 8.33px 0px 0px ;
+                }
+
+                span{
+                    margin-top: 8px;
+                    line-height: 149%;
+                    color: #39434D;
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+            }
+        }
+
+
+    }
+    
+}
+.diagonostic{
+    .headings{
+        h1{
+            margin-top: 8px;
+        }
+        .search-btn{
+            padding-top: 10px;
+        }
+    }
+
+    .machines{
+        margin-top: 32px;
+
+        .service{
+            // cursor: pointer;
+            // transition: all 0.3s ease;
+            
+
+            // &:hover{
+            //     transform: scale(1.05);
+            // }
+            
+            img{
+                height: 144px;
+                width: 144px;
+                margin: 2px 0 ;
+            }
+            .fifth-img{
+                margin-top: 25px;
+
+            }
+        }
+
+    }
+}
+
+.why-ss{
+    // margin-top: 100px;
+    .y-seba{
+        margin-top: 100px;
+    }
+    h1{
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 115%;
+        color: #111417;
+        margin: 8px auto;
+    }
+    p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 149%;
+        color: #617283;
+    }
+    .main-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        margin: 35px auto;
+
+        .container{
+            // display: flex;
+            background: #F8FCFF;
+            border-radius: 8px; 
+            // align-items: center;
+            margin: auto;
+            max-width: 389px;
+            cursor: grab;
+            
+
+            p{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 149%;
+                color: #121212;
+                margin: auto 32px auto 52px ;
+            }
+            .img-name{
+                margin: 16px 0px 49px 52px;
+                display: flex;
+                align-items: center;
+
+                span{
+                    margin: 12px;
+                    color: #023154;
+                }
+            }
+        }
+    }
+
+    .dots{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -10px;
+        span{
+            height: 8px;
+            width: 8px;
+            background: #D0D3D6;
+            margin: 8px;
+            border-radius: 50%;
+            &:hover{
+                background: #71BFFB;
+            }
+        }
+        
+        .one{
+            background: #71BFFB;
+            
+        
+            
+        }
+    }
+}

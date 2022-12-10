@@ -1,0 +1,62 @@
+.doctors{
+    // margin: auto
+    // padding: 0 10px;
+    
+
+    .headings{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+        
+        .h-con{
+            margin: 0;
+            h1{
+                font-weight: 700;
+                font-size: 26px;
+                color: #111417;
+            }
+            p{
+                font-weight: 500;
+                font-size: 16px;
+                color: #617283;
+            }
+        }
+    }
+    .specialist{
+        // display: grid;
+        // grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        // margin: 32px 0px;
+        // gap: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        // margin: 32px 0;
+        .service{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            img{
+                margin: 32px 0px 16px 0px;
+                width: 144px;
+                height: 160px;
+            }
+            h2{
+                font-weight: 700;
+                font-size: 18px;
+                align-items: center;
+                margin: 12px 0;
+            }
+            a{
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 12px;
+                color: #078FF7;
+            }
+        }
+    }
+}
+

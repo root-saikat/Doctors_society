@@ -1,0 +1,103 @@
+.head-back{
+    max-width: 1216px;
+    min-height: 356px;
+    background: linear-gradient(90deg, rgba(0, 30, 53, 0.83) 9.21%, rgba(10, 69, 114, 0.31) 75.08%);
+    background-image: url(../scss/all-files-sass/ambulances/image/background.svg);
+    padding: 25px 40px;
+
+    .head{
+
+        h1{
+            margin: 16px 0;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 115%;
+            color: #FFFFFF;
+            .pr{
+                color: #62A7DB;
+            }
+            .hq{
+                color: #62E2EA;
+            }
+            .em{
+                color: #FFC845;
+            }
+        }
+        .cus{
+            font-weight: 700;
+            font-size: 16px;
+            color: #FFFFFF;
+            padding: 16px auto;
+        }
+    }
+    
+    .best {
+        margin: 32px auto;
+        p::before{
+            content: url(../scss/all-files-sass/ambulances/image/Outline.svg);
+            align-items: center;
+        }
+        p{
+            font-weight: 500;
+            font-size: 14px;
+            color: #FFFFFF;
+            display: flex;
+            gap: 12px;
+            margin: 12px 0;
+        }
+        
+    }
+}
+.grandpa {
+    // margin: 64px auto;
+    gap: 24px;
+    .amb-parent{
+        // max-width: 803px;
+        min-width: 450px;
+        .ac-amb{
+            margin: 64px auto;
+            .headings{
+                padding: 16px;
+                background: #DBEFFE;
+                border-radius: 4px;
+                margin: 0 0 24px 0;
+                h1{
+                    color: #023154;
+
+                }
+            }
+            .image{
+                display: flex;
+                gap: 33px;
+                .aone img{
+                    // max-width: 385px;
+                    width: fit-content;
+                    height: 186px;
+                }
+            }
+            .para{
+                margin: 24px 0;
+                p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    text-align: justify;
+                    color: #39434D;
+                    line-height: 20.86px;
+                }
+            }
+            .key{
+                span:before{
+                    content: url(../scss/all-files-sass/ambulances/image/tik.svg);
+                    padding-right: 8.33px;
+                }
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+            }
+        }
+    
+    }
+    .form{
+        margin: 64px auto;
+    }
+}

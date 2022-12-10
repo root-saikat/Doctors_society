@@ -1,0 +1,85 @@
+.m6{
+    margin:0px ;
+}
+.m0{
+    margin: 0;
+}
+.width-m{
+    max-width: 1256px;
+    margin: 0 auto;
+    padding: 0 20px
+}
+.auto{
+    margin: 0 auto;
+    // padding: 0 20px;
+}
+button:hover{
+    cursor: pointer;
+    // transition: all 0.1s ease;
+    &:hover{
+        // transform: scale(1.01);
+    }
+}
+
+.view-all{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    a{
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        color: #04518C;
+        a:hover{
+            color: #d30000;
+            background: red;
+        }
+        span::after{
+            padding: 12.88px;
+            content: url(/image/index/right-arrow.svg);
+        }
+    }
+    
+}
+.hover0:hover{
+    border: 1px solid ;
+}
+
+.hover{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+.hover2{
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        transform: scale(1.02);
+        background: #d8e6f1;
+    }
+}
+.hover3{
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+.view-all-m{
+    display: none;
+}
+h1,h2,h3,h4{
+    margin: 0;
+}
+p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+

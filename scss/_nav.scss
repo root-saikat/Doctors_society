@@ -1,0 +1,80 @@
+
+.nav{
+    // margin: 0 35px;
+    display: block;
+    .service{
+        display: flex;
+        font-size: 16px;
+        font-weight: 500;
+        justify-content: space-between;
+        // width: 100%;
+        // max-width: 1256px;
+        // padding: 12px 80px;
+        // margin: 0 6%;
+        // width: 92.2916666667%;
+        padding: 12px 0;
+        .menu{
+            display: none;
+        }
+        .links{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            list-style-type: none;
+            .health-img a{
+                padding: 0;
+                &:hover{
+                    border-bottom: none;
+                }
+                
+            }
+            img{
+                margin-right: 28px;
+                width: 150px;
+            }
+            li{
+                margin: 0px 20px;
+                a{
+                    text-decoration: none;
+                    
+                }
+            }
+            h1{
+                color: #04518C;
+            }
+            a{
+                text-decoration: none;
+                color: #617283;
+                padding: 10px 8px;
+                white-space: nowrap;
+                // margin-left: 56px;
+            }
+            a:hover{
+                // transition: ease 1s;
+                color: #078FF7;
+                // background: rgb(238, 239, 245);
+                border-bottom: 2px solid #078FF7;;
+            }
+        }
+        .btnn .login{
+            padding: 8px 14px;
+            color: #078FF7;
+            background-color: #FFFFFF;
+            font-size: 14px;
+            font-weight: 500;
+            border: 1px solid #078FF7;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 0;
+
+            
+            // margin-right: 7.6%;
+        }
+        .login:hover{
+            color: #FFFFFF;
+            background-color: #078FF7;
+        }
+
+    }
+}

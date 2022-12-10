@@ -1,0 +1,133 @@
+.section-two{
+    margin: 64px auto;
+    .h-btn{
+        display: flex;
+        justify-content: space-between;
+        margin: 32PX auto;
+        .shead{
+            display: flex;
+            gap: 8px;
+            h1{
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 115%;
+                display: flex;
+                align-items: center;
+                color: #252B32;
+            }
+            span{
+                font-weight: 400;
+                font-size: 26px;
+                line-height: 115%;
+                display: flex;
+                align-items: center;
+                color: #252B32;
+            }
+        }
+        .sbutton{
+            button{
+                
+            border-radius: 4px;
+            background: #04518C;
+            border: none;
+            padding: 9px 21px;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 120%;
+            color: #FFFFFF;
+            }
+        }
+    }
+    .scontainer{
+        display: flex;
+        gap: 15px;
+        .scon{
+        border: 1px solid #F1F1F1;
+        border-radius: 4px;
+        max-width: 201px;
+            width: 100%;
+            .img{
+                width: 100%;
+                // height: 160px;
+                position: relative;
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                }
+                span{
+                    position: absolute;
+                    padding: 6px 8px;
+                    right: 0px;
+                    top: 4px;
+                    background: #19B3BD;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 120%;
+                    color: #FFFFFF;
+                }
+            }
+            .snames{
+                h2{
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 149%;
+                    color: #39434D;
+                    padding: 8px 14px;
+                }
+            }
+            .ss{
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 120%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                color: #617283;
+                margin: 16px auto;
+            }
+            .price{
+                
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .one{
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 120%;
+                    color: #4D5A68;
+                }
+                .two{
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 120%;
+                    text-decoration-line: line-through;
+                    color: #617283;
+                }
+            }
+            .cartbtn{
+                display: flex;
+                justify-content: center;
+                margin: 16px 6px;
+                button{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 9px 12px;
+                    gap: 4px;
+                    max-width: 186px;
+                    width: 90%;
+                    height: 34px;
+                    border: 1px solid #078FF7;
+                    border-radius: 4px;font-weight: 500;
+                    font-size: 12px;
+                    line-height: 120%;
+                    color: #078FF7;
+                }
+            }
+
+        }
+    }
+
+}

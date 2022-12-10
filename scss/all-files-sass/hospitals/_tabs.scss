@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css');
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tabs {
+max-width: 906px;
+// padding: 16px 16px;
+}
+
+
+#tsum-tabs h2 {
+font-weight: 700;
+font-size: 16px;
+color: #04518C;
+}
+
+#tsum-tabs p {
+line-height: 1.5;
+}
+
+#tsum-tabs main {
+// min-width: 320px;
+// max-width: 906px;
+// padding: 24px;
+margin: 0 auto;
+background :none;
+}
+
+#tsum-tabs section {
+display: none;
+// padding: 20px 0 0;
+// border-bottom: 1px solid #ddd;
+}
+
+#tsum-tabs input {
+display: none;
+}
+
+#tsum-tabs label {
+display: inline-block;
+margin: 0 0 -1px;
+padding: 15px 16px;
+text-align: center;
+border: 1px solid transparent;
+font-weight: 500;
+font-size: 16px;
+color: #93A1AF;
+}
+
+#tsum-tabs label:before {
+font-family: fontawesome;
+font-weight: normal;
+margin-right: 10px;
+}
+
+.tab-content{
+    background: #fff;
+    .content{
+        min-width: 320px;
+        max-width: 906px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+#content1, #content2, #content3, #content4, #content5, #content6, #content7 {
+    min-width: 320px;
+    max-width: 906px;
+    background: #fff;
+    padding: 24px 24px 16px 24px;
+    .con{
+        padding-bottom: 24px;
+        border-bottom: 1px solid #ECECEC;
+    }
+
+}
+
+// #tsum-tabs label[for*='1']:before { content: '\f1cb'; }
+// #tsum-tabs label[for*='2']:before { content: '\f17d'; }
+// #tsum-tabs label[for*='3']:before { content: '\f16b'; }
+// #tsum-tabs label[for*='4']:before { content: '\f1a9'; }
+// #tsum-tabs label[for*='5']:before { content: '\f1a9'; }
+// #tsum-tabs label[for*='6']:before { content: '\f1a9'; }
+// #tsum-tabs label[for*='7']:before { content: '\f1a9'; }
+
+#tsum-tabs label:hover {
+background: rgb(255, 255, 255);
+cursor: pointer;
+}
+
+#tsum-tabs input:checked + label {
+color: #555;
+border: 1px solid #ddd;
+background: #fff;
+// border-top: 2px solid orange;
+border: 1px solid #fff;
+}
+
+#tsum-tabs #tab1:checked ~ #content1,
+#tsum-tabs #tab2:checked ~ #content2,
+#tsum-tabs #tab3:checked ~ #content3,
+#tsum-tabs #tab4:checked ~ #content4,
+#tsum-tabs #tab5:checked ~ #content5,
+#tsum-tabs #tab6:checked ~ #content6,
+#tsum-tabs #tab7:checked ~ #content7 {
+display: block;
+}
+
+
+.bot{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding:0 24px 24px 24px;
+    p{
+        font-weight: 500;
+        font-size: 14px;
+        color: #078FF7;
+    }
+    img{
+        width: 20.54px;
+        height: 20.25px;
+        color: #93A1AF;
+    }
+}
+
+
+
+@media screen and (max-width: 650px) {
+#tsum-tabs label {
+    font-size: 0;
+}
+#tsum-tabs label:before {
+    margin: 0;
+    font-size: 18px;
+}
+}
+
+@media screen and (max-width: 400px) {
+    #tsum-tabs label {
+        padding: 15px;
+    }
+}

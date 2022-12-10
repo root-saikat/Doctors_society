@@ -1,0 +1,102 @@
+.section-one{
+    margin: 40px auto;
+    .headings{
+        display: flex;
+        gap: 6px;
+        h1{
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 115%;
+            display: flex;
+            align-items: center;
+            color: #252B32;
+            
+        }
+        
+        span{
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 115%;
+            display: flex;
+            align-items: center;
+            color: #252B32;
+
+        }
+    }
+    .shop-grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        margin: 22px 0 ;
+        .sp-con-zero{
+            background: #F6E5FC;
+            border-radius: 4px;
+        }
+        .sp-con-one{
+            background: #F8FCFF;
+            border-radius: 4px;
+        }
+        .scontainer{
+            display: flex;
+            // width: 277px;
+            height: 174px;
+            border-radius: 4px;
+            overflow: hidden;
+            padding: 5px;
+
+            .one{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 15px 0 15px 15px;
+
+                h1{
+                    font-weight: 700;
+                    font-size: 20px;
+                    color: #252B32;
+                    width: 95px;
+                    // white-space: nowrap;
+                }
+                button{
+                    background: none;
+                    border: none;
+                    padding-left: 14px;
+                    width: fit-content;
+                    img{
+                        
+                    color: #93A1AF;
+                    }
+                }
+            }
+            .two{
+
+                // border-radius: 70% 50% 20% 30%;
+                // background: #FFEFC7;
+                .imgradious{
+                    width: 204px;
+                    height: 204px;
+                    border-radius: 50% 60%;
+                    background: #FFEFC7;
+                }
+                .imgradious_t{
+                    width: 204px;
+                    height: 204px;
+                    border-radius: 50% 60%;
+                    background: #DBEFFE;
+                }
+                .imgradious_tt{
+                    width: 204px;
+                    height: 204px;
+                    border-radius: 50% 60%;
+                    background: #E5FAFC;
+                }
+                .imgradious_ttt{
+                    width: 204px;
+                    height: 204px;
+                    border-radius: 50% 60%;
+                    background: #E5FAFC;
+                }
+            }
+        }
+    }
+}

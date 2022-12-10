@@ -1,0 +1,92 @@
+.special{
+    background: #FFFFFF;
+    max-width: 906px;
+    // height: 478px;
+    margin: 24px auto;
+    padding: 24px;
+    .headings{
+        margin: 0;
+        h1{
+            font-weight: 700;
+            font-size: 18px;
+            color: #252B32;
+        }
+    }
+    .nav{
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        // margin: 16px 0;
+        // gap: 12px;
+        li{
+            // gap: 12px;
+            margin: 12px 6px;
+            a{
+                text-decoration: none;
+                padding: 8px 16px;
+                background: #F1F1F1;
+                border-radius: 100px;
+                color: #4D5A68;
+            }
+        }
+    }
+    .spa{
+        color: #078FF7;
+        a{
+            font-weight: 500;
+            font-size: 14px;
+            text-decoration: none;
+        }
+    }
+    .doctors{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 32px;
+        gap: 33px;
+        .doc{
+            display: flex;
+            // max-width: 263px;
+            .pic{
+                margin-right: 12px;
+                width: 80;
+                height: 80;
+            }
+            .content{
+                h1{
+                    font-weight: 500;
+                    font-size: 16px;
+                    text-align: justify;
+                    color: #39434D;
+                }
+                .link{
+                    li{
+                        list-style-type: none;
+                        font-weight: 500;
+                        font-size: 14px;
+                        margin: 8px 0;
+                    
+                        a{
+                            text-decoration: none;
+                            font-weight: 400;
+                            font-size: 14px;
+                            color: #11777E;
+                        }
+                    }
+                }
+             }
+
+        }
+    }
+    
+    .more{
+        list-style-type: none;
+        color: #078FF7;
+        margin-top: 16px;
+        a{
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,248 @@
+// mobileapp media query
+    // mobileapp media query
+
+@media only screen and (max-width: 767px){    
+    .mobileapp{
+        margin: 32px 0;
+        .beni{
+            background-image: url("../image/index/bg.png");
+            background:#023154;
+            max-width: 360px;
+            min-height: 773px;
+            padding: 0 20px;
+            margin: 32px 0;
+    
+    
+            .sides{
+                flex-direction: column-reverse;
+    
+                .left{
+                    h1{
+                        font-weight: 500;
+                        font-size: 22px;
+                        margin: 20px 0 10px 0;
+                        // line-height: 115%;
+                    }
+                    .li{
+                        font-weight: 500;
+                        font-size: 12px;
+                        // margin: 0 20px 32px 20px;
+                        margin-bottom: 36px;
+                        li{
+                        margin: 4px 0;
+                        }
+                    }
+                    p{
+                        font-weight: 500;
+                        font-size: 14px;
+                        margin: 0;
+                    }
+
+                    .search{
+                        flex-direction: column;
+                        .search-bar{
+                                width: 320px;
+                                height: 48px;
+                                margin: 8px 0;
+                                .num{
+                                    height: 100%;
+                                    border-radius: 6px 0 0 6px;
+                                    span{
+                                        font-weight: 400;
+                                        font-size: 14px;
+                                    }
+                                }
+                            .search_control{
+                                font-weight: 500;
+                                font-size: 14px;
+                            }
+
+                        }
+                        button{
+                            margin: 8px;
+                            width: 320px;
+                            height: 42px;
+                            font-weight: 500;
+                            font-size: 14px;
+                            background: #19B3BD;
+                            &:hover{
+                                border: none;
+                            }
+                        }
+                    }
+                    .appstore{
+                        display: flex;
+                        justify-content: space-around;
+                        margin: 25px 0;
+                        img{
+                            margin: 0;
+                            width: 127px;
+                            height: 41px;
+                        }
+                    }
+                }
+    
+    
+    
+                .right{
+                    img{
+                        width: 227px;
+                        height: 320px;
+                        margin-left: 27px;
+                    }
+    
+                }
+            }
+        }
+    }
+    .partners{
+        padding: 0 20px;
+        .ops{
+            margin: 64px 0;
+        }
+        .ourp{
+            .op{
+                font-weight: 700;
+                font-size: 22px;
+            }
+            p{
+                font-weight: 500;
+                font-size: 14px;
+            }
+        }
+        .grid-p{
+            margin: 20px 0;
+            gap: 16px;
+            grid-template-columns: 1fr 1fr;
+            .part{
+                width: 152px;
+                height: 111px;
+
+                img{
+                    margin: 0;
+                }
+            }
+        }
+
+    }
+
+    .advice{
+        display: block;
+        max-width: 360px;
+        height: fit-content;
+        border-radius: 0;
+        padding: 20px;
+        .left{
+            margin: 20px 0;
+            h1{
+                // width: auto;
+                font-weight: 700;
+                font-size: 26px;
+                color: #2ED8E3;
+                font-family: 'DM Sans';
+
+            }
+            .p1, .p2{
+                font-weight: 400;
+                font-size: 16px;
+                margin: 8px 20px 16px 0;
+
+            }
+        }
+        .right{
+            width: auto;
+
+            p{
+                margin-top: 32px;
+                font-weight: 500;
+                font-size: 14px;
+                width: auto;
+            }
+            input{
+                width: 320px;
+                height: 48px;
+                font-size: 14px;
+                font-weight: 500;
+            }
+
+        }
+    }
+
+
+    .bottom{
+        .cr{
+            font-weight: 400;
+            font-size: 12px;
+            margin: 0;
+        }
+        .footer{
+            flex-direction: column-reverse;
+            // margin: 20p;
+            // padding: 40px;
+            gap: 40px;
+
+            .twoo{
+                flex-direction: column;
+                gap: 0;
+
+                .li-a{
+                    margin: 6px 0;
+                    // width: 320px;
+                    height: 52px;
+                    background: #FFFFFF;
+                    border: 1px solid #D0D3D6;
+                    border-radius: 4px;
+                    padding: 16px;
+                    display: flex;
+                    justify-content: space-between;
+                    cursor: pointer;
+                    i{
+                        display: block;
+                        color: #617283;
+                    
+                    }
+
+                    h2{
+                        font-weight: 700;
+                        font-size: 14px;
+                        // text-align: center;
+                        color: #252B32;
+                    }
+
+                    .list-item{       
+                        display: none;
+                    }
+                }
+            }
+
+            .one{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .logo{
+                    width: 131.62px;
+                    height: 35px;
+                    align-items: center;
+                    margin-top: 30px ;
+                    padding: 0;
+                }
+                p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    text-align: center;
+                }
+                .social{
+                    img{
+                        margin: 0 14px;
+                    }
+                }
+                .num{
+                    margin-top: 27px;
+                    font-weight: 700;
+                    font-size: 16px;
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,105 @@
+.search-contain{
+    background: #023154;
+    .search-items{
+        display: flex;
+        // justify-content: space-between;
+        gap: 24px;
+        padding: 0;
+        margin: 0;
+
+        .search-container{
+            align-items: center;
+            // text-align: center;
+            max-width: 711px;
+            background: none;
+            // margin-left: 16px;
+
+
+            #search-bar{
+                color: #000000;
+                font-size: 15px;
+                font-weight: 500;
+                height: 50px;
+                background:white;
+                border-radius: 5px;
+            }
+            #search-bar:focus{
+                color: #000000;
+            }
+            a{
+                display: flex;
+                align-items: center;
+            }
+            input::placeholder{
+                color: #000000;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+    }
+    .select{
+        margin: 24px 0;
+    }
+    #select{
+        max-width: 292px;
+        height: 50px;
+        padding: 12.5px 125px 12.5px 10px;
+        color: #000000;
+        background: #FFFFFF;
+        font-size: 14px;
+        font-weight: 500;
+        border: 1px solid #D0D3D6;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .doc-s-btn {
+        margin: 24px auto;
+        .btn{
+            width: 165px;
+            height: 50px;
+            right: 112px;
+            top: 16px;
+            
+            /* Steelblue Tint & Shades/T01 */
+            
+            background: #078FF7;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18px;
+            
+            /* White */
+            
+            color: #FFFFFF;
+        }
+    }
+
+
+    .tabs{
+        display: flex;
+        // justify-content: space-around;
+        gap: 25px;
+        // margin:0px auto 16px 50px ;
+        // padding: 0;
+
+        #tab{
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: 1px solid #FFFFFF;
+            margin-bottom: 20px;
+            background: transparent;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            option{
+                // color: #ffffff;
+                background: #023154;
+                // margin-top: 5px ;
+            }
+
+        }
+
+    }
+
+}
