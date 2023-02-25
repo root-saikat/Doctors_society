@@ -3438,6 +3438,11 @@ body {
   color: #078FF7;
 }
 
+.active {
+  color: #078FF7;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 992px) {
   .serve .service h1 {
     font-weight: 700;
