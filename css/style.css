@@ -3861,6 +3861,31 @@ body {
   .advice .right {
     width: 100%;
   }
+  ul.navbar-nav.mr-auto {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 20px;
+  }
+  ul.navbar-nav.mr-auto li a {
+    color: #617283;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  ul.navbar-nav.mr-auto li a:hover {
+    color: #078FF7;
+    text-decoration: underline;
+  }
+  .serve .service h1, .serve .service p {
+    padding: 0px 29px;
+  }
+  .serve .service .search-box .links {
+    padding: 15px 42px;
+  }
+  i.fas.fa-bars {
+    padding-top: 7px;
+    font-size: 35px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
