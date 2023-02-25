@@ -1,0 +1,421 @@
+@media screen and (max-width:992px) {
+    .serve .service h1 {
+        font-weight: 700;
+        font-size: 30px;
+        color: #111417;
+        max-width: 555px;
+        margin-top: 32px;
+        line-height: 35.6px;
+    }
+    .serve .img {
+        right: 30px;
+        // height: 300px;
+        width: 150px;
+        border-radius: 12px;
+        margin: 0;
+        position: absolute;
+    }
+    .serve .img img{
+        height: 100%;
+        width: 100%;
+    }
+    .serve .service .search-box{
+        max-width: 100%;
+    }
+    .doctors .specialist .service img {
+        margin: 32px 0px 16px 0px;
+        width: 100px;
+        height: 100px;
+    }
+    .doctors .specialist .service h2{
+        font-size:14px;
+    }
+    .emergency .vehicle .ambulance .benifits {
+        box-sizing: border-box;
+        margin: 8px 0;
+    }
+    .emergency .vehicle .ambulance .benifits span{
+        font-size: 11px;
+    }
+    .why-ss .main-container .container p{
+        margin: 8px 0;
+    }
+    .mobileapp .beni .sides .left h1 {
+        max-width: 607px;
+        font-weight: 700;
+        font-size: 21px;
+        margin: 80px 0px 24px 0px;
+    }
+    .mobileapp .beni .sides .left .m-search {
+        padding: 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .mobileapp .beni .sides .left .m-search .search-btn .m-btn{
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .mobileapp .beni .sides .left .li{
+        margin-bottom: 20px;
+    }
+    .right img {
+        width: 250px;
+        height: 60%;
+    }
+    .right {
+        display: flex;
+        align-items: center;
+    }
+    .mobileapp .beni{
+        height: fit-content;
+        padding-bottom: 50px;
+    }
+    .partners .grid-p .part{
+        padding: 30px;
+    }
+    .advice{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .advice .left{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .advice .right {
+        width: 90%;
+        flex-direction: column;
+    }
+    .advice .left h1 {
+        max-width: 100%;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 93%;
+        color: #2ED8E3;
+        margin-top: 20px;
+    }
+    .top .home-nav{
+        display: none;
+    }
+    .nav .service .links li {
+        margin: 0px;
+    }
+    .nav .service .btnn .login{
+        padding: 6px;
+    }
+    .nav .service{
+        align-items: center;
+    }
+    .serve{
+        position: relative;
+    }
+    .service {
+        width: 100%;
+    }
+    .Cardiologists{
+        flex-direction: column;
+    }
+    .Cardiologists .maps .map{
+        max-width: 100%;
+    }
+    .Cardiologists .maps .map iframe{
+        width: 100%;
+        height: 400px;
+    }
+    .Cardiologists .maps .ads img{
+        width: 100%;
+    }
+    .similar .ads img{
+        width: 100%;
+    }
+    .search-contain .search-items .search-container{
+        width: 220px;
+    }
+    .search-contain .select{
+        margin: 0;
+    }
+    .search-contain .search-items{
+        align-items: center;
+    }
+    .squire .shl {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .grandpa{
+        flex-direction: column;
+    }
+    .updates .divs .u-p img{
+        width: 100%;
+    }
+    #tsum-tabs main{
+        padding: 20px;
+    }
+    .aone {
+        width: 330px;
+    }
+    .aone img{
+        width: 100%;
+    }
+    .grandpa .amb-parent .ac-amb .image .aone img{
+        width: 100%;
+    }
+    .head-back .head, .head-back .best {
+        background: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
+    .nav .service .links img {
+        margin-right: 13px;
+    }
+    
+
+
+
+}
+
+
+
+
+@media screen and (max-width:500px) {
+    .news .containerr,.news .containerr .con-two .article{
+        flex-direction: column;
+    }
+    .serve .service .search-box{
+        max-width: 100%;
+    }
+    .serve .service .search-box .search .search-bar, .serve .service .search-box .search .search-btn{
+        margin: 0 auto;
+    }
+    .serve .service .search-box .search .search-btn .btn{
+        margin-left: 0;
+    }
+    .nav .service img{
+        height: 39px;
+    }
+    i.fa-solid.fa-bars {
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    .news .n-o-e .bar{
+        width: 100%;
+    }
+    .mobileapp .beni{
+        max-width: 100%;
+    }
+    .sides.width-m .left {
+        text-align: center;
+    }
+    .mobileapp .beni .sides .left .li{
+        margin-left: 0;
+    }
+    .mobileapp .beni .sides{
+        align-items: center;
+    }
+    .mobileapp .beni .sides .right img{
+        margin-left: 0;
+    }
+    .squire .shl{
+        display: flex;
+        flex-direction: column;
+    }
+    .squire .search{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .special .nav{
+        flex-direction: column;
+        padding-bottom: 25px;
+        padding-left: 0;
+    }
+    .special .doctors{
+        flex-direction: column;
+    }
+    .updates .divs .u-p img{
+        max-width: 100%;
+    }
+    .grandpa{
+        flex-direction: column;
+    }
+    .grandpa .adds .one {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .adds {
+        display: grid;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+    .squire .wrapper img{
+        min-height: 100%;
+    }
+    .search-contain .search-items{
+        flex-direction: column;
+    }
+    .search-contain .select, .search-contain .doc-s-btn{
+        margin: 0 auto;
+    }
+    .search .search-container{
+        width: 90%;
+        max-width: 90%;
+    }
+    .search {
+        padding: 20px 0 0;
+    }
+    .search-contain .search-items{
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+    .search-contain .doc-s-btn{
+        margin-top: -8px;
+    }
+    .search-contain .tabs {
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .search-contain .tabs #tab{
+        margin-bottom: 8px;
+        width: 90%;
+    }
+    
+    .Cardiologists{
+        flex-direction: column;
+    }
+    .Cardiologists .card .doctor .doc-name{
+        margin-top:10px;
+    }
+    .Cardiologists .card .doctor, .Cardiologists .card .doctor .hospital{
+        flex-direction: column;
+    }
+    .Cardiologists .card .appointments{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Cardiologists .maps .map{
+        text-align: center;
+        margin-top: 0;
+    }
+    .Cardiologists .maps .map iframe {
+        height: 350px;
+        width: 90%;
+    }
+    .Cardiologists .maps .ads img {
+        width: 100%;
+        height: 220px;
+    }
+    .Cardiologists .maps .ads {
+        padding: 10px;
+    }
+    .similar .card .doctor{
+        flex-direction: column;
+    }
+    .similar .card .doctor .doc-name {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .similar .card .doctor .hospital{
+        gap: 10px;
+    }
+    .similar .card .appointments{
+        flex-direction: column;
+    }
+    .similar .card{
+        max-height: 100%;
+    }
+    .similar .card .appointments button{
+        margin-left: 0;
+    }
+    .similar .card .doctor .doc-name{
+        margin-top: 10px;
+    }
+    .similar .ads img {
+        width: 100%;
+    }
+    .similar .ads{
+        padding:20px;
+        padding-top: 0;
+    }
+    .headings{
+        padding: 0 20px;
+    }
+    .grandpa .amb-parent .ac-amb .image {
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+    }
+    .grandpa .amb-parent {
+        min-width: 100%;
+    }
+    .grandpa .amb-parent .ac-amb .para{
+        padding: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .grandpa .amb-parent .ac-amb .key{
+        padding: 20px;
+    }
+    .grandpa .amb-parent .ac-amb .image{
+        padding: 0 20px;
+    }
+    .grandpa .amb-parent .ac-amb .image .aone img{
+        width: 100%;
+    }
+    .amb-container{
+        margin-top: 0;
+        width: 90%;
+    }
+    .amb-container h1{
+        width: 100%;
+    }
+    .head-back{
+        padding: 25px 20px;
+    }
+    .head-back .head, .head-back .best {
+        background: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
+    .main-body{
+        flex-direction: column;
+    }
+    .main-body .left {
+        display: flex;
+        max-width: 100%;
+        margin: 0 auto;
+        gap: 20px;
+    }
+    .main-body .left .new{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .main-body .left .new .form-group label{
+        margin: 0;
+    }
+    .main-body .left .chk-box{
+        padding: 12px;
+    }
+    .heading h1{
+        margin-left: 20px;
+    }
+    .main-body .left .header{
+        text-align: center;
+    }
+    .main-body .grid-items{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .heading h1 {
+        font-weight: 700;
+        font-size: 22px;
+    }
+    .serve .img{
+        position: unset;
+        width: auto;
+    }
+
+}
+
