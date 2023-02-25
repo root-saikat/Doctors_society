@@ -3858,6 +3858,9 @@ body {
   .search-contain .search-items .search-container {
     width: 290px;
   }
+  .advice .right {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
